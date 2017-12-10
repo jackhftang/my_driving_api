@@ -13,7 +13,7 @@ module.exports = [
     },
     options: {
       validate: {
-        payload: Joi.array().max(10).items(Joi.array().length(2).items(Joi.number())),
+        payload: Joi.array().max(Config.maxNumOfDropoff).items(Joi.array().length(2).items(Joi.number())),
       },
       payload: {
         parse: true,

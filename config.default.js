@@ -7,6 +7,7 @@ module.exports = {
   routeDir: join(__dirname, 'src/route'),
   host: '0.0.0.0',
   port: 8080,
+  maxNumOfDropoff: 10,
   awsRegion: 'ap-southeast-1',
   dynamoTable: 'my_driving_api',
   googleMapApiKey: '',
