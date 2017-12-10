@@ -1,0 +1,26 @@
+{
+  "name": "my_driving_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/nyc ./node_modules/.bin/_mocha"
+  },
+  "author": "Jack Tang <me@jackhftang.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@google/maps": "^0.4.5",
+    "aws-sdk": "^2.164.0",
+    "boom": "^7.1.1",
+    "hapi": "^17.1.1",
+    "joi": "^13.0.2",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "expect": "^21.2.1",
+    "mocha": "^4.0.1",
+    "nyc": "^11.3.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  }
+}

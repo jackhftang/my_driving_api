@@ -1,0 +1,16 @@
+version: '3'
+services:
+  web:
+    image: jackhftang/my_driving_api
+    deploy:
+      replicas: 8
+    environment:
+      - googleMapApiKey=''
+      - awsAccessKey=''
+      - awsSecretKey=''
+    ports:
+      - "8080:8080"
+    networks:
+      - webnet
+networks:
+  webnet:
