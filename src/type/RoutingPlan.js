@@ -96,7 +96,7 @@ module.exports = function (Config) {
       let mat = await distanceMatrix(routes);
 
       // todo: long running process
-      let {distance, path} = shortestRoute(mat, 0);
+      let {distance, path} = await shortestRoute(mat, 0);
 
       this.preliminaryTotalDistance = distance;
       this.optimalRoutes = path.map(i => routes[i]);
