@@ -9,18 +9,18 @@
   "author": "Jack Tang <me@jackhftang.com>",
   "license": "MIT",
   "dependencies": {
-    "@google/maps": "^0.4.5",
-    "aws-sdk": "^2.164.0",
-    "boom": "^7.1.1",
-    "hapi": "^17.1.1",
-    "joi": "^13.0.2",
-    "underscore": "^1.8.3"
+    "@google/maps": "^0.4.6",
+    "aws-sdk": "^2.315.0",
+    "boom": "^7.2.0",
+    "hapi": "^17.5.4",
+    "joi": "^13.6.0",
+    "underscore": "^1.9.1"
   },
   "devDependencies": {
     "expect": "^21.2.1",
-    "mocha": "^4.0.1",
-    "nyc": "^11.3.0",
-    "request": "^2.83.0",
+    "mocha": "^4.1.0",
+    "nyc": "^11.9.0",
+    "request": "^2.88.0",
     "request-promise": "^4.2.2"
   }
 }

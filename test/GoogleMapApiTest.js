@@ -14,7 +14,6 @@ describe('High level Map API', function () {
       ];
       let mat = await distanceMatrix(locations);
       expect(mat).toHaveLength(locations.length);
-      console.log(mat);
     })
 
   });
